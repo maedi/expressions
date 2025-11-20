@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ['maediprichard@gmail.com']
 
   spec.summary = 'Expressions evaluate into useful objects'
+  spec.description = 'Expressions evaluate into useful objects via a query builder like interface'
   spec.homepage = 'https://github.com/maedi/expressions'
   spec.required_ruby_version = '>= 3.3.0'
 
