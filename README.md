@@ -42,7 +42,7 @@ Coming soon...
 The table expression inverts the usual database query logic. Instead of building a query of what we want from the database, we build the table we want and let the expression build the query.
 
 ```ruby
-table(:username | :id > :user_id, :title | :body)
+table(:username > :title | :body)
 ```
 
 The above expression builds a ORM query to right join the user table into the articles table and results in a list of articles with the user's username in each row
