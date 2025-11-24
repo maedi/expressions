@@ -23,11 +23,11 @@ my_var = type MyType | fetch_my_object(id: 123)
 
 `my_var` is now type checked to be of type MyType when assigned to.
 
-For more information on type expressions see [LowType](https://codeberg.org/Iow/type) gem.
+For more information on type expressions see [LowType](https://github.com/low-rb/low_type) gem.
 
 ### `value()`
 
-For more information on value expressions see [LowType](https://codeberg.org/Iow/type) gem.
+For more information on value expressions see [LowType](https://github.com/low-rb/low_type) gem.
 
 ### `config()`
 
@@ -37,6 +37,6 @@ Coming soon...
 
 Coming soon...
 
-### `table()`
+### `table()` [UNRELEASED]
 
-Coming soon...
+The table expression inverts the usual database query logic. Instead of building a query of what we want from the database, we build the table we want and let the expression build the query.
